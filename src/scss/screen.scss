@@ -27,3 +27,35 @@
 //	, "layout/pages/index"		// page specifik, prefixing with p-{page-name}-*
 
 ;
+
+
+// purecss 
+@import "node_modules/purecss/build/base-context-min";
+@import "node_modules/purecss/build/base";
+
+// buttons
+@import "node_modules/purecss/build/buttons-core-min";
+@import "node_modules/purecss/build/buttons-min";
+
+//forms
+@import "node_modules/purecss/build/forms-nr-min";
+@import "node_modules/purecss/build/forms-min";
+
+// grids
+@import "node_modules/purecss/build/grids-core-min";
+@import "node_modules/purecss/build/grids-min";
+@import "node_modules/purecss/build/grids-responsive-min";
+@import "node_modules/purecss/build/grids-responsive-old-ie-min";
+@import "node_modules/purecss/build/grids-units-min";
+
+// menus
+@import "node_modules/purecss/build/menus-dropdown-min";
+@import "node_modules/purecss/build/menus-horizontal-min";
+@import "node_modules/purecss/build/menus-min";
+@import "node_modules/purecss/build/menus-scrollable-min";
+@import "node_modules/purecss/build/menus-skin-min";
+
+// pure 
+@import "node_modules/purecss/build/pure-min";
+@import "node_modules/purecss/build/pure-nr-min";
+@import "node_modules/purecss/build/tables-min";

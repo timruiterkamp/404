@@ -16,7 +16,7 @@ gulp.task('styles', function() {
 gulp.task('minify-css', function() {
   return gulp.src('dist/stylesheets/css/screen.css')
     .pipe(sourcemaps.init())
-    .pipe(minifyCss())
+    .pipe(minifyCss({keepSpecialComments : 0}))
     .pipe(rename('screen.min.css'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('dist'));

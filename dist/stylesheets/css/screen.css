@@ -1,6 +1,18 @@
+/* font sizes */
 body {
   background-color: #000; }
 
+h1 {
+  left: 50%;
+  top: 50%;
+  color: #fff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-bottom: 15px solid #fff;
+  border-top: 15px solid #fff;
+  padding: 0px 5px 0px 5px; }
+
+/* font sizes */
 /*!
 Pure v0.6.0
 Copyright 2014 Yahoo! Inc. All rights reserved.

@@ -1,3 +1,13 @@
 body {
 	background-color: $black;
 }
+h1 {
+	left:50%;
+	top:50%;
+	color:#fff;
+	position: absolute;
+	transform:translate(-50%, -50%);
+	border-bottom: 15px solid#fff;
+	border-top: 15px solid#fff;
+	padding:0px 5px 0px 5px;
+}

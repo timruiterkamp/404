@@ -1,0 +1,21 @@
+{
+  "name": "404maffia",
+  "version": "0.0.2",
+  "description": "404 pages by bosses",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timruiterkamp/404.git"
+  },
+  "author": "Bram Mittendorff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timruiterkamp/404/issues"
+  },
+  "homepage": "https://github.com/timruiterkamp/404#readme",
+  "dependencies": {
+    "purecss": "^0.6.0"
+  },
+  "devDependencies": {
+    "purecss": "^0.6.0"
+  }
+}
